@@ -1,0 +1,1 @@
+SELECT [Name],[CtfId],[Address],[Mobile] FROM [shifenzheng].[dbo].[cdsgus] where CtfId like '37132719%' and subString([CtfId],15,2)='64'
